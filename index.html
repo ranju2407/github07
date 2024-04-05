@@ -1,1 +1,109 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Curves</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Classic Curves</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="">Home</a></p>
+            <p class="navbar-link"><a href="">Collections</a></p>
+            <p class="navbar-link"><a href="">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <!--Font Awesome icons-bars -->
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <!--Side Navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="">Home</a></p>
+            <p class="side-navbar-link"><a href="">New Arrival</a></p>
+            <p class="side-navbar-link"><a href="">Most Wanted</a></p>
+            <p class="side-navbar-link"><a href="">Collections</a></p>
+            <p class="side-navbar-link"><a href="">Contact</a></p>
+        </div>
+    </div>
+
+    <!--Header-->
+    <div class="header">
+        <div>
+            <h1>Level up your style</h1>
+            <p>With our stunning Collections</p>
+            <button class="header-button">Shop Now</button>
+        </div>
+        <div>
+            <img class="header-image"
+                src="https://img.freepik.com/premium-photo/clothes-hanging-rack-clothing-store-with-text-overlay-that-reads-how-keep-your-closet-organized_197463-12369.jpg"
+                style="width: 320px;height: 300px;">
+        </div>
+    </div>
+
+    <!--Service-->
+    <div class="service">
+        <div class="service-container-1">
+            <div>
+                <h2>We Provide Best</h2>
+                <h2>Customer Experience</h2>
+            </div>
+
+            <div>
+                <p>|| we ensure that our customer have the best shopping experience</p>
+            </div>
+        </div>
+
+        <div class="service-container-2">
+            <div>
+                <i class="fa-regular fa-face-smile "></i>
+                <h4>Satisfaction Guarantee</h4>
+                <p>Satisfaction guaranteed! Return within days for a full refund or exchange. Shop confidently for your
+                    perfect dress.</p>
+
+            </div>
+            <div>
+                <i class="fa-regular fa-face-smile "></i>
+                <h4>New Arrival Everyday</h4>
+                <p>Exciting news! New stunning dress collection! Personalized styling advice available. Find your
+                    perfect look today!</p>
+            </div>
+
+            <div>
+                <i class="fa-regular fa-face-smile "></i>
+                <h4>Fast & Free Shipping</h4>
+                <p>Enjoy fast, free shipping on all orders! Shop worry-free and get your perfect dress on every
+                    occasion, at no extra cost.</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
