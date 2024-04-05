@@ -104,6 +104,52 @@ body {
     padding: 10px;
 }
 
+.new-arrival {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.new-arrival-container {
+    position: relative;
+    flex-basis: 20%;
+}
+
+.new-arrival button {
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    margin-top: 10px;
+    color: #1D232C;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.news input {
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    border: solid black 3px;
+}
+.news button{
+    margin-top: 10px;
+    color: #F2F4F7;
+    background-color:#1D232C;
+    border-radius: 10px;
+    padding: 10px;
+}
 /* Media Query*/
 
 @media screen and (max-width:700px) {
