@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Curves</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Classic Curves</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <!--Font Awesome icons-bars -->
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <!--Side Navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="index.html">New Arrival</a></p>
+            <p class="side-navbar-link"><a href="index.html">Most Wanted</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+    <!--Product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="products">
+            <div class="products-box">
+                <img src="https://i.pinimg.com/236x/f6/0a/b6/f60ab654299479de7ecc8eed12a657ed.jpg"style="width: 200px;height: 200px;" alt="">
+                <p>White top</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://i.pinimg.com/564x/f2/5a/19/f25a19ac8ef804d1930df137e53b22fd.jpg"style="width: 200px;height: 200px;" alt="">
+                <p>Casual outfit</p>
+            </div>
+            <div class="products-box">
+                <img src="https://i.pinimg.com/564x/33/d4/64/33d464a9a4bbd42e71795a3f2ed5b3f9.jpg"style="width: 200px;height: 200px;"alt="">
+                <p>Kurta set</p>
+            </div>
+            <div class="products-box">
+                <img src="https://i.pinimg.com/564x/b4/44/80/b444808d24fed1cca94271ef4cbf525e.jpg"style="width: 200px;height: 200px;" alt="">
+                <p>frog</p>
+            </div>
+            <div class="products-box">
+                <img src="https://i.pinimg.com/564x/2a/9d/00/2a9d0056444682b5b70522963008d43e.jpg"style="width: 200px;height: 200px;" alt="">
+                <p>Jacket</p>
+            </div>
+            <div class="products-box">
+                <img src="https://i.pinimg.com/564x/8d/bc/f5/8dbcf595a30874570d8984608b0fd3d9.jpg"style="width: 200px;height: 200px;" alt="">
+                <p>Party wear</p>
+            </div>
+            <div class="products-box">
+                <img src="https://i.pinimg.com/564x/9d/2b/36/9d2b3684b7d9c1cfc6b1f1c4df63a3c7.jpg"style="width: 200px;height: 200px;" alt="">
+                <p>T-shirts & cargo</p>
+            </div>
+            <div class="products-box">
+                <img src="https://i.pinimg.com/564x/5b/4c/40/5b4c40e6e6e493242442f82154324904.jpg"style="width: 200px;height: 200px;" alt="">
+                <p>Sherwani</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Classic Curves</h2>
+                <p>Experience elegance at our dress shop! Find grace in every piece! Let our collection inspire your style! Only at Classic curves!</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+
+            </div>
+
+        </div>
+        <p>@ 2024 Classic curves.com</p>
+    </div>
+    <script src="collection.js">
+        
+    </script>
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
