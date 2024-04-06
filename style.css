@@ -142,6 +142,8 @@ body {
     width: 80vw;
     margin-bottom: 10px;
     border: solid black 3px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 .news button{
     margin-top: 10px;
@@ -200,14 +202,57 @@ body {
 
 .contact{
     background-color: #1D232C;
-    height: 100%;
-    width: 100%;
     margin: 20px;
     padding: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 5px;
+    align-items: center;
+}
+
+
+
+.contactone{
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.contact-search{
+    width: 90%;
+    border: solid black 2px;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 10px;
+    background-color: #F2F4F7;
+
+}
+.contact-search input{
+    border: none;
+    background-color: #F2F4F7;
+    width: 100%;
+}
+
+.contact-search input:focus{
+    outline: none;
+}
+.contact button{
+    margin-top: 10px;
+    color: #F2F4F7;
+    background-color:rgb(74, 113, 240);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 45px;
 }
 /* Media Query*/
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:700px)
+ {
     .navbar-menu-toggle {
         display: block;
     }
@@ -229,4 +274,5 @@ body {
     }
 
 }
+
 
