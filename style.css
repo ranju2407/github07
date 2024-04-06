@@ -222,7 +222,6 @@ body {
 }
 
 .contact-search{
-    width: 90%;
     border: solid black 2px;
     border-radius: 5px;
     display: flex;
@@ -235,7 +234,6 @@ body {
 .contact-search input{
     border: none;
     background-color: #F2F4F7;
-    width: 100%;
 }
 
 .contact-search input:focus{
@@ -274,5 +272,3 @@ body {
     }
 
 }
-
-
